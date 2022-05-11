@@ -16,7 +16,7 @@ btnCreat.onclick =function(){
     spanItem
     newli.appendChild(spanItem);
     spanItem.onclick=function(){
-        document.querySelector('li').remove();
+        newLi.remove();
     }
     inputText.value="";
 
